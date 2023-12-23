@@ -1,0 +1,5 @@
+pack.name=Solid entity v3 rp
+pack.description=By Da4ThEdge
+
+item.spawn_egg.entity.pirates:hitbox.name=Hitbox
+entity.pirates:hitbox.name=Hitbox

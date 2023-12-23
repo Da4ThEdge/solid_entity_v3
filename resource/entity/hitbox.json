@@ -1,0 +1,21 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pirates:hitbox",
+      "materials": {"default": "skeleton"},
+      "textures": {
+        "default": "textures/entities/hitbox"
+      },
+      "geometry": {
+        "default": "geometry.pirates.hitbox"
+      },
+      "scripts": {
+        "scalex": "!q.is_saddled ? 0 : q.property('pirates:hitbox_width')",
+        "scaley": "!q.is_saddled ? 0 : q.property('pirates:hitbox_height')",
+        "scalez": "!q.is_saddled ? 0 : q.property('pirates:hitbox_width')"
+      },
+      "render_controllers": [ "controller.render.default" ]
+    }
+  }
+}
